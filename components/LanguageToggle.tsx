@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { Noto_Sans_JP } from "next/font/google"
-import { Mail, Linkedin, Twitter, Newspaper } from "lucide-react"
+import { Mail, Linkedin, Twitter, Newspaper, BookOpen } from "lucide-react"
 import Link from "next/link"
 
 const notoSansJP = Noto_Sans_JP({
@@ -60,6 +60,9 @@ export default function LanguageToggle() {
         </Link>
         <Link href="/press" aria-label="Press Coverage">
           <Newspaper className="w-6 h-6 text-gray-800 hover:text-gray-600 transition-colors duration-300" />
+        </Link>
+        <Link href="/essays" aria-label="Personal Essays">
+          <BookOpen className="w-6 h-6 text-gray-800 hover:text-gray-600 transition-colors duration-300" />
         </Link>
       </div>
     </div>
