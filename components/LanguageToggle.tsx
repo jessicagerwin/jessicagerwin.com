@@ -39,7 +39,7 @@ export default function LanguageToggle() {
         )}
       </button>
       <div className="mt-4 flex justify-center space-x-6">
-        <Link href="mailto:jessica@socrateslabs.io" aria-label="Email Jessica">
+        <Link href="mailto:jessica@okaeri.ai" aria-label="Email Jessica">
           <Mail className="w-6 h-6 text-gray-800 hover:text-gray-600 transition-colors duration-300" />
         </Link>
         <Link
