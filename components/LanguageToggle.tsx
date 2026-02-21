@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { Noto_Sans_JP } from "next/font/google"
-import { Mail, Linkedin, Twitter, Newspaper, BookOpen } from "lucide-react"
+import { Mail, Linkedin, Twitter, Newspaper, BookOpen, Globe } from "lucide-react"
 import Link from "next/link"
 
 const notoSansJP = Noto_Sans_JP({
@@ -63,6 +63,14 @@ export default function LanguageToggle() {
         </Link>
         <Link href="/essays" aria-label="Personal Essays">
           <BookOpen className="w-6 h-6 text-gray-800 hover:text-gray-600 transition-colors duration-300" />
+        </Link>
+        <Link
+          href="https://www.okaeri.ai"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Okaeri"
+        >
+          <Globe className="w-6 h-6 text-gray-800 hover:text-gray-600 transition-colors duration-300" />
         </Link>
       </div>
     </div>
