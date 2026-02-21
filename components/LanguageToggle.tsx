@@ -26,15 +26,15 @@ export default function LanguageToggle() {
       >
         {isJapanese ? (
           <>
-            <span className="font-bold">こんにちは、ジェシカです。</span>
+            <span className="font-bold">こんにちは、ジェスです。</span>
             <br />
-            新しいものを作っています。
+            おかえりを作っています。
           </>
         ) : (
           <>
-            <span className="font-bold">Hi, I&apos;m Jessica.</span>
+            <span className="font-bold">Hi, I&apos;m Jess.</span>
             <br />
-            Building something new.
+            Building Okaeri.
           </>
         )}
       </button>
