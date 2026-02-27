@@ -42,6 +42,14 @@ export default function LanguageToggle() {
         <Link href="/about" aria-label="About Me">
           <User className="w-6 h-6 text-gray-800 hover:text-gray-600 transition-colors duration-300" />
         </Link>
+        <Link
+          href="https://www.okaeri.ai"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Okaeri"
+        >
+          <Globe className="w-6 h-6 text-gray-800 hover:text-gray-600 transition-colors duration-300" />
+        </Link>
         <Link href="mailto:jessica@okaeri.ai" aria-label="Email Jessica">
           <Mail className="w-6 h-6 text-gray-800 hover:text-gray-600 transition-colors duration-300" />
         </Link>
@@ -66,14 +74,6 @@ export default function LanguageToggle() {
         </Link>
         <Link href="/essays" aria-label="Personal Essays">
           <BookOpen className="w-6 h-6 text-gray-800 hover:text-gray-600 transition-colors duration-300" />
-        </Link>
-        <Link
-          href="https://www.okaeri.ai"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Okaeri"
-        >
-          <Globe className="w-6 h-6 text-gray-800 hover:text-gray-600 transition-colors duration-300" />
         </Link>
       </div>
     </div>
