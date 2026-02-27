@@ -25,9 +25,17 @@ export default function LanguageToggle() {
         className={`${notoSansJP.className} text-base font-normal text-gray-800 hover:text-gray-600 transition-colors duration-300`}
       >
         {isJapanese ? (
-          <span className="font-bold">こんにちは、ジェスです。</span>
+          <>
+            <span className="font-bold">こんにちは、ジェスです。</span>
+            <br />
+            ようこそ、来てくれて嬉しいです。
+          </>
         ) : (
-          <span className="font-bold">Hi, I&apos;m Jess.</span>
+          <>
+            <span className="font-bold">hi, i&apos;m jess.</span>
+            <br />
+            welcome, i&apos;m glad you&apos;re here.
+          </>
         )}
       </button>
       <div className="mt-4 flex justify-center space-x-6">
