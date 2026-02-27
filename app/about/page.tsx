@@ -15,12 +15,12 @@ export default function AboutPage() {
     <main
       className={`${notoSansJP.className} relative min-h-screen overflow-hidden bg-[#faf9f6]`}
     >
-      {/* Gradient Blobs - Soft Green */}
+      {/* Gradient Blobs - Soft Muted Yellow */}
       <div
         className="absolute w-[700px] h-[700px] rounded-full animate-float"
         style={{
           background:
-            "radial-gradient(circle, rgba(144, 238, 144, 0.35) 0%, rgba(144, 238, 144, 0) 70%)",
+            "radial-gradient(circle, rgba(218, 195, 145, 0.35) 0%, rgba(218, 195, 145, 0) 70%)",
           top: "-10%",
           left: "-10%",
           filter: "blur(80px)",
@@ -30,7 +30,7 @@ export default function AboutPage() {
         className="absolute w-[600px] h-[600px] rounded-full animate-float-delayed"
         style={{
           background:
-            "radial-gradient(circle, rgba(152, 251, 152, 0.4) 0%, rgba(152, 251, 152, 0) 70%)",
+            "radial-gradient(circle, rgba(235, 214, 160, 0.4) 0%, rgba(235, 214, 160, 0) 70%)",
           top: "30%",
           right: "-5%",
           filter: "blur(80px)",
@@ -40,7 +40,7 @@ export default function AboutPage() {
         className="absolute w-[650px] h-[650px] rounded-full animate-float-slow"
         style={{
           background:
-            "radial-gradient(circle, rgba(193, 225, 193, 0.45) 0%, rgba(193, 225, 193, 0) 70%)",
+            "radial-gradient(circle, rgba(240, 225, 180, 0.45) 0%, rgba(240, 225, 180, 0) 70%)",
           bottom: "-15%",
           left: "20%",
           filter: "blur(80px)",
@@ -60,27 +60,29 @@ export default function AboutPage() {
 
         {/* About Content */}
         <div className="max-w-xl text-center">
-          <h1 className="text-lg font-light text-gray-800 mb-6">About Me</h1>
-          
           <div className="space-y-4 text-sm font-light text-gray-700 leading-relaxed">
-            <p>
-              Hi, I'm Jess. I'm the founder of Okaeri, where we're building technology 
-              to help people feel at home wherever they are.
+            <p className="font-normal text-gray-800">
+              Hi, I'm Jess.
             </p>
             
             <p>
-              Before starting Okaeri, I spent years exploring the intersection of 
-              technology and human connection. I believe that the best products are 
-              those that understand people deeply and serve their needs with care.
+              I believe the future will be shaped by people who build with courage, agency, and taste. In an age of infinite intelligence, discernment is everything.
             </p>
             
             <p>
-              When I'm not building, you can find me writing essays about taste, 
-              architecture, and what it means to create in an age of automation.
+              I'm building Okaeri in San Francisco: an agentic executive assistant designed to think with you and act with your judgment.
             </p>
             
             <p>
-              I'm based in San Francisco and always happy to connect with curious minds.
+              I curate rooms, host dinners, and design immersive experiences. I build systems and gatherings that change trajectories.
+            </p>
+            
+            <p>
+              I write sometimes.
+            </p>
+            
+            <p>
+              Welcome.
             </p>
           </div>
         </div>
