@@ -8,8 +8,8 @@ const notoSansJP = Noto_Sans_JP({
 })
 
 export const metadata = {
-  title: 'Jessica\'s Portfolio',
-  description: 'Building something new',
+  title: "Jess",
+  description: "welcome, i'm glad you're here.",
     generator: 'v0.app'
 }
 
