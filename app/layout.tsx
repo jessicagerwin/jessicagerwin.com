@@ -1,5 +1,6 @@
 import './globals.css'
 import { Noto_Sans_JP } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/next'
 
 const notoSansJP = Noto_Sans_JP({
   weight: ['400', '700'],
@@ -20,7 +21,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={notoSansJP.className}>{children}</body>
+      <body className={notoSansJP.className}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   )
 }
